@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, p {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: white;
+}
+
+button, a {
+  cursor: pointer;
+}
+.carousel-inner {
+  align-content: center;
+  position: relative;
+  padding: 0%;
+  margin: 20px;
+
+}
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 45px 0 20px;
+}
+
+.footer h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer h5 {
+  margin-bottom: 15px;
+}
+
+.lista-enlaces {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-enlaces li {
+  margin-bottom: 12px;
+}
+
+.lista-enlaces a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.lista-enlaces a:hover {
+  color: #8ee5a6;
+  padding-left: 5px;
+}
+
+.footer hr {
+  border-color: white;
+  opacity: 0.3;
+}
+
+.footer p {
+  color: #ddd;
+}
+.encabezado-servicios {
+  background: #e8f5e9;
+  padding: 65px 20px;
+}
+
+.encabezado-servicios h1 {
+  color: #198754;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.encabezado-servicios p {
+  color: #555;
+  margin-top: 15px;
+}
+
+.servicio-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.servicio-card:hover {
+  transform: translateY(-8px);
+}
+
+.servicio-card img {
+  height: 230px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card-text {
+  color: #666;
+  min-height: 75px;
+}
+
+.mensaje-final {
+  background: #e8f5e9;
+  color: #333;
+}
